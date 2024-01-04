@@ -7,6 +7,10 @@ module.exports = {
     './app/javascript/**/*.js',
     './app/views/**/*.{erb,haml,html,slim}'
   ],
+  variants: {
+    border: ["responsive", "first", "last", "hover", "focus"],
+    padding: ["responsive", "first", "last", "hover", "focus"],
+  },
   theme: {
     extend: {
       fontFamily: {
