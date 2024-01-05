@@ -71,3 +71,7 @@ end
 gem "tailwindcss-rails", "~> 2.1"
 
 gem "hotwire-livereload", "~> 1.3", :group => :development
+
+gem "shakapacker", "= 7.2"
+
+gem 'react-rails', '~> 3.1', '>= 3.1.1'
