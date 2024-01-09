@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'photos', to: 'photos#index'
   get 'welcome/index'
   get 'welcome/realtime_webcam'
   get 'articles/index'

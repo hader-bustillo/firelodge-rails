@@ -1,24 +1,13 @@
-# README
+## Run application in local
+### Setup project
+*** Step 1: *** install gems
+```bundle install```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*** Step 2: *** install npm package by yarn (this is for running react, please make sure you have NodeJS v18.17.1)
+```yarn install```
 
-Things you may want to cover:
+*** Step 3: *** start project by foreman (https://github.com/ddollar/foreman)
 
-* Ruby version
+```foreman start -f Procfile.dev```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*** Note: *** The application will be running on the port 3001, please check the file: Procfile.dev for changing to any port that you want
