@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { table, minifyItems } from "../utils/airtable.js";
 
-import Modal from "./Modal.jsx";
+import Modal from "./ui/Modal";
 import classNames from "../utils/classnames.js";
 
 export default function Amenities() {

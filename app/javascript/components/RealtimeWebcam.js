@@ -1,9 +1,9 @@
 import React from "react";
 
-import PerfectSection from "./perfect-section";
+import PerfectSection from "./PerfectSection";
 import Calendar from "./Calendar";
 import AnimateIn from "./ui/animate-in";
-import MountainImages from "./mountain-images";
+import MountainImages from "./MountainImages";
 
 
 import { title, subtitle, perfectFeatures } from "./data/perfect-features";

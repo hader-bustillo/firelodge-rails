@@ -1,5 +1,5 @@
 import React from "react";
-import classNames from "../utils/classnames";
+import classNames from "../../utils/classnames";
 
 export default function ModalBackground({ className }) {
   return (

@@ -3,7 +3,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import fireLodgeVideo from "../image/fire-lodge-video.jpg";
 
-import ModalBackground from "./ModalBackground";
+import ModalBackground from "./ui/ModalBackground";
 
 export default function VideoSection() {
   let [isOpen, setIsOpen] = useState(false);

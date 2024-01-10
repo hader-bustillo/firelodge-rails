@@ -4,7 +4,7 @@ import { useState } from "react";
 import PhotoAlbum from "react-photo-album";
 
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
-import AppImage from "./app-image";
+import AppImage from "./ui/AppImage";
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
