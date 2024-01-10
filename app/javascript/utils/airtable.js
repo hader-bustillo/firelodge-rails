@@ -1,8 +1,8 @@
 import Airtable from "airtable";
 
-const AIRTABLE_API_KEY = "";
-const AIRTABLE_BASE_ID = "";
-const AIRTABLE_TABLE_ID = "";
+const AIRTABLE_API_KEY = AT_API_KEY;
+const AIRTABLE_BASE_ID = AT_BASE_ID;
+const AIRTABLE_TABLE_ID = AT_TABLE_ID;
 
 Airtable.configure({
   apiKey: AIRTABLE_API_KEY,

@@ -1,0 +1,18 @@
+<title>FirelodgeComRails</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
+<script async="" data-id="101388838" src="//static.getclicky.com/js"></script>
+<%= render 'common/poppins_font' %>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<%= csrf_meta_tags %>
+<%= csp_meta_tag %>
+<%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+<%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+<script>
+  AT_API_KEY = "<%= Rails.application.credentials.airtable_api_key %>";
+  AT_BASE_ID = "<%= Rails.application.credentials.airtable_base_id %>";
+  AT_TABLE_ID = "<%= Rails.application.credentials.airtable_table_id %>";
+</script>
+<%= javascript_importmap_tags %>
+<%= hotwire_livereload_tags if Rails.env.development? %>
+<%= javascript_pack_tag "application" %>

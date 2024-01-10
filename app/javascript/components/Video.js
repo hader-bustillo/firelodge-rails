@@ -17,7 +17,7 @@ export default function VideoSection() {
   }
 
   return (
-    <>
+    <React.Fragment>
       <div className="flex justify-center w-screen pt-16 mx-auto bg-white ">
         <div className="w-full overflow-hidden align-middle">
           <div
@@ -102,6 +102,6 @@ export default function VideoSection() {
           </div>
         </Dialog>
       </Transition>
-    </>
+    </React.Fragment>
   );
 }

@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FirelodgeComRails</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
-    <script async="" data-id="101388838" src="//static.getclicky.com/js"></script>
-    <%= render 'common/poppins_font' %>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
-    <%= hotwire_livereload_tags if Rails.env.development? %>
-    <%= javascript_pack_tag "application" %>
+    <%= render 'layouts/head' %>
   </head>
   <body>
     <main>
