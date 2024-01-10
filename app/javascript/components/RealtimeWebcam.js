@@ -4,8 +4,6 @@ import PerfectSection from "./PerfectSection";
 import Calendar from "./Calendar";
 import AnimateIn from "./ui/animate-in";
 import MountainImages from "./MountainImages";
-
-
 import { title, subtitle, perfectFeatures } from "./data/perfect-features";
 
 export default function RealtimeWebcam() {
@@ -29,7 +27,6 @@ export default function RealtimeWebcam() {
             features={perfectFeatures}
           />
         </AnimateIn>
-
 
         <AnimateIn className="pt-10 mx-8 pb-10">
           <Calendar />

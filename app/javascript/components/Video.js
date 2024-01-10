@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import fireLodgeVideo from "../image/fire-lodge-video.jpg";
 
+import fireLodgeVideo from "../image/fire-lodge-video.jpg";
 import ModalBackground from "./ui/ModalBackground";
 
 export default function VideoSection() {
